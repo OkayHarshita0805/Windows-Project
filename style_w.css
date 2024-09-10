@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(bg_img.jpg);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+/*taskbar */
+
+.taskbar{
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    z-index: 110;
+}
+
+#bright_taskbar{
+    position: absolute;
+    right: 0px;
+    bottom: 1px;
+    height: 40px;
+}
+
+div{
+    display:grid;
+    place-items: center;
+} 
+
+/*Start Menu */
+
+ .startmenu{
+
+    align-content: center;
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: -650px;
+    text-align: end;
+    transition: all 0.4s ease-in;
+    z-index: auto;
+}
+
+/* File Explorer */
+
+#file_manager{
+    border-radius: 4px;
+}
+
+
+.filemanager{
+    position: absolute;
+    margin-bottom: 30px;
+    bottom: -650px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    z-index: 5;
+}
+
+
+
+ #chrome{
+    
+    border-radius: 4px;
+    
+} 
+
+.chromee{
+    position: absolute;
+    margin-bottom: 10px;
+    bottom: -650px;
+    text-align: center;
+    transition: all 0.6s ease-in;
+    z-index: 6;
+}
+
+#vsCodee{
+    border-radius: 4px;
+}
+
+.vsCode{
+    position: absolute;
+    margin-bottom: 16px;
+    bottom: -650px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    z-index: 5;
+}
+
+/* Desktop Icon */
+
+.icon img{
+    align-items: center;
+    width: 50px;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+
+.icon{
+    margin: 5px;
+    width: 60px;
+    height: 45px;
+    text-align:center;
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: 'Segoe UI Semibold';
+} 
+
+#edge{
+    margin-left: 0px;
+    margin-top: 90px;
+}
+
+#recyclebin{
+    margin-top: 73px;
+}
+
+#vlc{
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
